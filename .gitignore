@@ -1,0 +1,9 @@
+*.ncb
+*.user
+*.sdf
+*.vcproj
+.svn
+Debug
+Release
+/ipch
+/_UpgradeReport_Files/

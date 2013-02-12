@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoginServer", "LoginServer\LoginServer.vcxproj", "{A7CCF198-A420-415E-8679-4F01A01B182E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcxproj", "{9606645A-2A14-4B5D-8317-3423F9D5553D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RoseCommon", "RoseCommon\RoseCommon.vcxproj", "{3CF7F060-16FF-4953-954C-148C13529FAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests", "StressTester\StressTester.vcxproj", "{C8ACB795-28CF-4C58-A088-6D614E773638}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9606645A-2A14-4B5D-8317-3423F9D5553D} = {9606645A-2A14-4B5D-8317-3423F9D5553D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RoseOnline", "RoseOnline\RoseOnline.vcxproj", "{1D8590FB-2A7E-49C9-B236-67943F063A2D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WorldServer", "WorldServer\WorldServer.vcxproj", "{27E1C2AD-08F9-44EF-93FB-DDDD1FDB8F9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameServer", "GameServer\GameServer.vcxproj", "{F2DBA1E1-A693-4E1F-B3DD-A90ACC4D02F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7CCF198-A420-415E-8679-4F01A01B182E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7CCF198-A420-415E-8679-4F01A01B182E}.Debug|Win32.Build.0 = Debug|Win32
+		{A7CCF198-A420-415E-8679-4F01A01B182E}.Release|Win32.ActiveCfg = Release|Win32
+		{A7CCF198-A420-415E-8679-4F01A01B182E}.Release|Win32.Build.0 = Release|Win32
+		{9606645A-2A14-4B5D-8317-3423F9D5553D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9606645A-2A14-4B5D-8317-3423F9D5553D}.Debug|Win32.Build.0 = Debug|Win32
+		{9606645A-2A14-4B5D-8317-3423F9D5553D}.Release|Win32.ActiveCfg = Release|Win32
+		{9606645A-2A14-4B5D-8317-3423F9D5553D}.Release|Win32.Build.0 = Release|Win32
+		{3CF7F060-16FF-4953-954C-148C13529FAC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CF7F060-16FF-4953-954C-148C13529FAC}.Debug|Win32.Build.0 = Debug|Win32
+		{3CF7F060-16FF-4953-954C-148C13529FAC}.Release|Win32.ActiveCfg = Release|Win32
+		{3CF7F060-16FF-4953-954C-148C13529FAC}.Release|Win32.Build.0 = Release|Win32
+		{C8ACB795-28CF-4C58-A088-6D614E773638}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8ACB795-28CF-4C58-A088-6D614E773638}.Debug|Win32.Build.0 = Debug|Win32
+		{C8ACB795-28CF-4C58-A088-6D614E773638}.Release|Win32.ActiveCfg = Release|Win32
+		{C8ACB795-28CF-4C58-A088-6D614E773638}.Release|Win32.Build.0 = Release|Win32
+		{1D8590FB-2A7E-49C9-B236-67943F063A2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D8590FB-2A7E-49C9-B236-67943F063A2D}.Debug|Win32.Build.0 = Debug|Win32
+		{1D8590FB-2A7E-49C9-B236-67943F063A2D}.Release|Win32.ActiveCfg = Release|Win32
+		{1D8590FB-2A7E-49C9-B236-67943F063A2D}.Release|Win32.Build.0 = Release|Win32
+		{27E1C2AD-08F9-44EF-93FB-DDDD1FDB8F9E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27E1C2AD-08F9-44EF-93FB-DDDD1FDB8F9E}.Debug|Win32.Build.0 = Debug|Win32
+		{27E1C2AD-08F9-44EF-93FB-DDDD1FDB8F9E}.Release|Win32.ActiveCfg = Release|Win32
+		{27E1C2AD-08F9-44EF-93FB-DDDD1FDB8F9E}.Release|Win32.Build.0 = Release|Win32
+		{F2DBA1E1-A693-4E1F-B3DD-A90ACC4D02F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2DBA1E1-A693-4E1F-B3DD-A90ACC4D02F2}.Debug|Win32.Build.0 = Debug|Win32
+		{F2DBA1E1-A693-4E1F-B3DD-A90ACC4D02F2}.Release|Win32.ActiveCfg = Release|Win32
+		{F2DBA1E1-A693-4E1F-B3DD-A90ACC4D02F2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
